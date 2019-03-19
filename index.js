@@ -34,3 +34,19 @@ function findTheCheese(food){
    }
 return "no cheese!";
 }
+
+
+
+function wordsThatStartWithB(words){
+  var bWords = []
+  for(var i=0; i < words.length; i++){
+  if(words[i].startsWith("b") === true){
+  bWords.push(words[i])
+  }  
+  }
+}
+"banana".startsWith("b") // true
+"david".startsWith("b") // false
+wordsThatStartWithB(["banana", "cheddar", "grape"]) // ["banana"]
+wordsThatStartWithB(["brian", "bob", "joe"]) // ["brian", "bob"]
+wordsThatStartWithB(["chase", "prince", "miles"]) // []
