@@ -24,7 +24,7 @@ function longPlaneteerCalls(words){
 return false
 }
 
-var food = ["caviar", "steak", "lobster"];
+var food = ["bagel", "cheddar", "carrot"];
 function findTheCheese(food){
   var cheese = ["cheddar", "bleu", "stilton"];
     for(var i=0; i < food.length; i++){
